@@ -2,9 +2,9 @@
 home: true
 heroImage: /logo.png
 heroText: 土豆数据前端文档
-tagline: 一点一滴都是进步
+tagline: 千里之行，始于足下
 actionText: 马上进入 →
-actionLink: /pages/folder1/test1.md
+actionLink: /pages/project/create.md
 features:
 - title: 项目创建
   details: 项目

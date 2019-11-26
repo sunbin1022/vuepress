@@ -9,6 +9,6 @@
     "deploy": "start deploy.sh"
   },
   "keywords": [],
-  "author": "",
+  "author": "sunbin",
   "license": "ISC"
 }
