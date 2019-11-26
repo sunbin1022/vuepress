@@ -11,7 +11,7 @@ module.exports = {
   serviceWorker: true,
   themeConfig: {
     logo: '/logo.png',
-    lastUpdated: 'lastUpdate',
+    lastUpdated: '上次更新时间',
     // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
     repo: 'sunbin1022/vuepress',
     // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
@@ -22,6 +22,7 @@ module.exports = {
     docsBranch: 'master',
     editLinks: true,
     editLinkText: '帮助我们改善此页面！',
+    smoothScroll: true,
     nav: [
       { text: '首页', link: '/' },
       {
@@ -33,11 +34,27 @@ module.exports = {
         ]
       },
     ],
+    // sidebar:'auto'
+    // sidebar: {
+    //   '/project/': [
+    //     '',     
+    //     'create',  
+    //   ],
+
+    //   '/potato-ui/': [
+    //     '',
+    //     'Readme',     
+    //     'log', 
+    //   ],
+    //   '/potato-utils/': [
+    //     '',  
+    //     'log', 
+    //   ],
+    // }
     sidebar: [
       {
         title: 'project',
         collapsable: false,
-        sidebarDepth: 1,
         children: [
           {
             title: '新建本地项目',
@@ -48,7 +65,6 @@ module.exports = {
       {
         title: 'potato-ui',
         collapsable: false,
-        sidebarDepth: 1,
         children: [
           {
             title: '更新日志',
@@ -65,8 +81,36 @@ module.exports = {
             path: '/pages/potato-utils/log.md',
           }
         ]
-      }
+      },
+      {
+        title: '疑问',
+        children: [
+          {
+            title: '按钮label重构',
+            path: '/pages/questions/按钮label重构.md',
+          },
+          {
+            title: '接口url重构',
+            path: '/pages/questions/接口url重构.md',
+          },
+          {
+            title: '跨源消息传递opBroker用法',
+            path: '/pages/questions/跨源消息传递opBroker用法.md',
+          },
+          {
+            title: '权限控制指令',
+            path: '/pages/questions/权限控制指令.md',
+          },
+          {
+            title: 'formValidation',
+            path: '/pages/questions/formValidation.md',
+          },
+          {
+            title: 'FySelect调整',
+            path: '/pages/questions/FySelect调整.md',
+          },
+        ]
+      },
     ],
-    smoothScroll: true
   }
 }
