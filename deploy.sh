@@ -13,6 +13,6 @@ git init
 git add -A
 git commit -m 'deploy'
 
-git push -f git@github.com:sunbin1022/potato-web.github.io.git master
+git push -f git@github.com:sunbin1022/potato-web.git master
 
 cd -

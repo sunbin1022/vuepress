@@ -5,6 +5,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],  //浏览器的标签栏的网页图标
   ],
+  base:'/potato-web/',
   markdown: {
     lineNumbers: true
   },
