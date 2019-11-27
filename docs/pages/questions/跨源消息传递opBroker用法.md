@@ -1,3 +1,4 @@
+# 跨源消息传递opBroker用法
 跨域消息传递现已改为嵌入iframe并通过postMessage跨源跨窗口执行脚本的方式来实现
 
 #### 阶段1：使用document.domain方式跨域传递消息
