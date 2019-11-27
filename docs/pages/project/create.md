@@ -16,10 +16,10 @@ next: false
  npm config get registry
 
 //确保输出为以下路径
- http://nexus.e-tudou.com:83/repository/tudou-npm-release/
+ http://nexus.e-tudou.com:83/repository/tudou-npm-public/
 
  //切换到私服地址
- npm config set registry http://nexus.e-tudou.com:83/repository/tudou-npm-release/
+ npm config set registry http://nexus.e-tudou.com:83/repository/tudou-npm-public/
 
  //创建web前端项目
  potato-cli create 项目名
@@ -132,18 +132,18 @@ next: false
 ## 管理
 
 ### 应用管理
-<a href="/images/1.png" target="_blank">![应用管理](/images/1.png "应用管理")</a>
+<a href="http://potato-public.oss-cn-beijing.aliyuncs.com/auth/vc-upload-1574852693347-3/1.png" target="_blank">![应用管理](http://potato-public.oss-cn-beijing.aliyuncs.com/auth/vc-upload-1574852693347-3/1.png "应用管理")</a>
 
 #### 添加应用
-<a href="/images/5.png" target="_blank">![添加应用](/images/5.png "添加应用")</a>
+<a href="http://potato-public.oss-cn-beijing.aliyuncs.com/auth/vc-upload-1574852693347-11/5.png" target="_blank">![添加应用](http://potato-public.oss-cn-beijing.aliyuncs.com/auth/vc-upload-1574852693347-11/5.png "添加应用")</a>
 
 ### 添加后台服务
-<a href="/images/2.png" target="_blank">![添加后台服务](/images/2.png "添加后台服务")</a>
+<a href="http://potato-public.oss-cn-beijing.aliyuncs.com/auth/vc-upload-1574852693347-5/2.png" target="_blank">![添加后台服务](http://potato-public.oss-cn-beijing.aliyuncs.com/auth/vc-upload-1574852693347-5/2.png "添加后台服务")</a>
 
 ### 角色管理
-<a href="/images/3.png" target="_blank">![角色管理](/images/3.png "角色管理")</a>
+<a href="http://potato-public.oss-cn-beijing.aliyuncs.com/auth/vc-upload-1574852693347-7/3.png" target="_blank">![角色管理](http://potato-public.oss-cn-beijing.aliyuncs.com/auth/vc-upload-1574852693347-7/3.png "角色管理")</a>
 
 ### 服务接口
-<a href="/images/4.png" target="_blank">![服务接口](/images/4.png "服务接口")</a>
+<a href="http://potato-public.oss-cn-beijing.aliyuncs.com/auth/vc-upload-1574852693347-9/4.png" target="_blank">![服务接口](http://potato-public.oss-cn-beijing.aliyuncs.com/auth/vc-upload-1574852693347-9/4.png "服务接口")</a>
 
 

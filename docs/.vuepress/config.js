@@ -14,6 +14,7 @@ module.exports = {
     lineNumbers: true
   },
   serviceWorker: true,
+  base:'/potato-web/',
   themeConfig: {
     logo: '/logo.png',
     lastUpdated: '上次更新时间',
